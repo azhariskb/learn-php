@@ -1,7 +1,7 @@
 # The rules (catatan)
 
 1. Selalu set error_reporting ke E_ALL untuk development dan
-1. Set ini value diawal
+1. Set ini_set() value diawal
 2. Selalu membuat komentar diawal untuk memperjelas tujuan file dibuat
 3. Setiap penamaan variabel harus jelas dan sesuai konteks
 4. Menulis tag php hanya dengan <?php // code; ?> atau shorthand <?= untuk echo

@@ -15,6 +15,8 @@
      abstract public function getName();
      abstract public function getSalary();
      abstract public function getLocation();
+
+     # abstract bisa mempunya fungsi biasa dan tidak harus dideklarasikan ulang seperti abstract function
      public function show() : string {
          return "{$this->getName()} bergaji Rp. {$this->getSalary()} di daerah {$this->getLocation()}";
      }
